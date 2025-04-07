@@ -1,4 +1,4 @@
-package datatypes;
+package strings;
 
 public class MutableStrings {
 

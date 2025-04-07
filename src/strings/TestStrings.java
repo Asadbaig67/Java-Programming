@@ -1,4 +1,4 @@
-package datatypes;
+package strings;
 
 
 public class TestStrings {
@@ -8,9 +8,9 @@ public class TestStrings {
         // Concepts in this :
 
         // --> String Pool : A special memory inside heap where unique string values are stored
-        //                   Whenever a string literal (like "Hello") is created, Java first checks if the same value already exists in the String Pool.
-        //                   If it exists, the reference to the existing string is returned.
-        //                   If it doesn’t exist, a new string object is created in the String Pool.
+        // - Whenever a string literal (like "Hello") is created, Java first checks if the same value already exists in the String Pool.
+        // - If it exists, the reference to the existing string is returned.
+        // - If it doesn’t exist, a new string object is created in the String Pool.
         // --> Heap Memory : General Object Allocation
 
 
