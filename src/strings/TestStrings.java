@@ -24,13 +24,10 @@ public class TestStrings {
         String newString = new String("Hello");
         String newString2 = new String("Helllo");
 
-
         System.out.println(str1 == str2); // true (same reference) == compares memory locations (references).
         System.out.println(newString == newString2); // false (different heap locations)
 
-
         // MUTABLE STRINGS
-
         StringBuilder sb = new StringBuilder("Hello");
         sb.append(" World"); // Modifies the existing object
         System.out.println(sb.toString()); // Output: "Hello World"
